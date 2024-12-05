@@ -17,4 +17,19 @@ public class TestController {
         ModelAndView md = new ModelAndView("test/index");
         return md;
     }
+    @RequestMapping("/service")
+    public ModelAndView service(){
+        ModelAndView md = new ModelAndView("test/service");
+        return md;
+    }
+    @RequestMapping("/why")
+    public ModelAndView why(){
+        ModelAndView md = new ModelAndView("test/why");
+        return md;
+    }
+    @RequestMapping("/team")
+    public ModelAndView team(){
+        ModelAndView md = new ModelAndView("test/team");
+        return md;
+    }
 }
